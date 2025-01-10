@@ -1,7 +1,7 @@
-import "./App.css";
+import { ProductDetails } from "./routes/ProductDetails";
 
-function App() {
-  return <h1>DsCommerce</h1>;
-}
+const App = () => {
+  return <ProductDetails />;
+};
 
 export default App;
