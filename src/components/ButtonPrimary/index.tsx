@@ -1,5 +1,9 @@
 import "./styles.css";
 
-export const ButtonPrimary = () => {
-  return <div className="dsc-btn dsc-btn-blue">Comprar</div>;
+type props = {
+  name: string;
+};
+
+export const ButtonPrimary = ({ name }: props) => {
+  return <div className="dsc-btn dsc-btn-blue">{name}</div>;
 };

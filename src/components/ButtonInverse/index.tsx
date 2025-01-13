@@ -1,5 +1,9 @@
 import "./styles.css";
 
-export const ButtonInverse = () => {
-  return <div className="dsc-btn dsc-btn-white">Início</div>;
+type props = {
+  name: string;
+};
+
+export const ButtonInverse = ({ name }: props) => {
+  return <div className="dsc-btn dsc-btn-white">{name}</div>;
 };

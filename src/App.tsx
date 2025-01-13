@@ -1,7 +1,7 @@
-import { ProductDetails } from "./routes/ProductDetails";
+import { Catalog } from "./routes/Catalog";
 
 const App = () => {
-  return <ProductDetails />;
+  return <Catalog />;
 };
 
 export default App;
